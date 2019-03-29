@@ -1,0 +1,9 @@
+{
+  "name": "botcamp",
+  "version": "1.0.0",
+  "description": "Projeto botcamp da impulso networking",
+  "main": "index.js",
+  "repository": "https://github.com/richardsonbruno/botcamp.git",
+  "author": "Richardson Bruno",
+  "license": "MPL-2.0"
+}
