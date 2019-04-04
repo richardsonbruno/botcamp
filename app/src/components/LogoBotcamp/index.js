@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import logoBotcamp from '../../img/botcamp.png';
 
 const LogoBotcamp = styled.img.attrs({
-    src: `${logoBotcamp}`,
+    src: logoBotcamp,
     alt: "Logo Botcamp"
 })`
     background-size: contain;
