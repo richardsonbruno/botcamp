@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import IconLogout from '../../img/iconfinder_logout.svg';
 
-const CloseBotcamp = styled.button`
+const LogoutBotcamp = styled.button`
     background: url(${IconLogout});
     background-size: contain;
     border: none;
@@ -12,4 +12,4 @@ const CloseBotcamp = styled.button`
     cursor: pointer;
 `;
 
-export default CloseBotcamp;
+export default LogoutBotcamp;

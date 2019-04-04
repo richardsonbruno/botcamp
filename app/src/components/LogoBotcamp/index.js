@@ -7,8 +7,7 @@ const LogoBotcamp = styled.img.attrs({
     alt: "Logo Botcamp"
 })`
     background-size: contain;
-    width: 248px;
-    height: 39px;
+    width: ${ props => props.small ? "200px" : "248px" };
 `;
 
 export default LogoBotcamp;
