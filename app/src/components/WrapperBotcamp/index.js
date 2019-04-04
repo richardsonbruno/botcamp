@@ -3,13 +3,16 @@ import styled from 'styled-components';
 import bgBotcamp from '../../img/ecossistema-background.png';
 
 const WrapperBotcamp = styled.main`
-    align-items: center;
-    background: url(${ bgBotcamp });
     display: flex;
+    align-items: center;
     flex-flow: column nowrap;
-    flex: 1;
-    height: 100vh;
     justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+
+    background: url(${ bgBotcamp });
+    height: 100vh;
     width: 100vw;
 `;
 

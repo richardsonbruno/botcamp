@@ -9,7 +9,6 @@ const LogoBotcamp = styled.img.attrs({
     background-size: contain;
     width: 248px;
     height: 39px;
-    margin-top: 120px
 `;
 
 export default LogoBotcamp;
