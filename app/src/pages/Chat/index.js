@@ -1,16 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import BgBotcamp from '../../components/BgBotcamp';
-import HeaderBotcamp from '../../components/HeaderBotcamp';
+import HeaderWrapper from '../../components/HeaderWrapper';
 import LogoBotcamp from '../../components/LogoBotcamp';
 import LogoutBotcamp from '../../components/LogoutBotcamp';
+import FooterWrapper from '../../components/FooterWrapper';
 
 const Chat = () => (
     <BgBotcamp>
-        <HeaderBotcamp>
+        <HeaderWrapper>
             <LogoBotcamp small />
-            <LogoutBotcamp />
-        </HeaderBotcamp>
+
+            <Link to="/">
+                <LogoutBotcamp />
+            </Link>
+        </HeaderWrapper>
+
+        <FooterWrapper />
     </BgBotcamp>
 );
 
