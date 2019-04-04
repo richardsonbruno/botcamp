@@ -10,7 +10,7 @@ class App extends React.Component {
         return (
             <WrapperBotcamp>
                 <LogoBotcamp />
-                <BtnBotcamp>Entrar</BtnBotcamp>
+                <BtnBotcamp content="Entrar" />
             </WrapperBotcamp>
         );
     }
