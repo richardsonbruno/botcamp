@@ -9,7 +9,12 @@ const BtnBotcamp = styled.button`
     background-color: #ee3e25;
     text-transform: uppercase;
     border-radius: 25px;
-    margin-bottom: 80px
+    margin-bottom: 80px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .8;
+    }
 `;
 
 export default BtnBotcamp;

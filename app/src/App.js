@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
 import WrapperBotcamp from './components/WrapperBotcamp';
 import LogoBotcamp from './components/LogoBotcamp';
 import BtnBotcamp from './components/BtnBotcamp';
 
-class App extends Component {
+class App extends React.Component {
     render(){
         return (
             <WrapperBotcamp>
